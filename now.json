@@ -4,5 +4,5 @@
   "builds": [
     { "src": "www/**/*", "use": "@now/static" }
   ],
-  "routes": [{ "src": "/", "dest": "www/index.html" }]
+  "routes": [{ "src": "/", "dest": "www/index.html","src": "/rob.html", "dest": "www/rob.html"}]
 }
