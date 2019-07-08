@@ -2,7 +2,7 @@
   "version": 2,
   "name": "tko-random-robbie",
   "builds": [
-    { "src": "www/**/*", "use": "@now/static" }
+    { "src": "*", "use": "@now/static" }
   ],
   "routes": [{ "src": "/", "dest": "index.html","src": "/rob.html", "dest": "rob.html"}]
 }
