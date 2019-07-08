@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "name": "tko-random-robbie",
+  "builds": [
+    { "src": "www/**/*", "use": "@now/static" }
+  ],
+  "routes": [{ "src": "/", "dest": "www/index.html" }]
+}
