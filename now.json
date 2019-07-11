@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 2,
   "name": "tko-random-robbie",
   "builds": [
       { "src": "*.html", "use": "@now/static" },
