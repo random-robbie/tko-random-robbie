@@ -4,5 +4,9 @@
   "builds": [
     { "src": "*", "use": "@now/static" }
   ],
-  "routes": [{ "src": "/", "dest": "index.html","src": "/rob.html", "dest": "rob.html"}]
+  "routes": [
+      {"src": "/", "dest": "index.html"},
+      {"src": "/rob.html", "dest": "rob.html"},
+      {"src": "/poc/[0-9]{6}.html", "dest": "rob.html", "methods": "GET"},
+  ]
 }
